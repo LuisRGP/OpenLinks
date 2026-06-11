@@ -46,8 +46,41 @@ export const themes = {
     avatar: 'w-28 h-28 mx-auto bg-white text-black text-4xl font-bold flex items-center justify-center border-4 border-white shadow-md',
     links_button: 'bg-black border-2 border-white p-4 cursor-pointer transition-all duration-100 hover:bg-white grup-hover:text-center hover:text-black group',
     links_text: 'text-white font-bold uppercase tracking-wide group-hover:text-black hover:text-center transition-colors duration-100',
+},
+    minimalista: {
+  background: 'bg-[url("/backgrounds/minimalista.png")] bg-cover bg-center text-white min-h-screen font-mono',
+  avatar: 'w-28 h-28 mx-auto bg-white text-black text-4xl font-bold flex items-center justify-center border-4 border-white shadow-md',
+  links_button: 'bg-black border-2 border-white p-4 cursor-pointer transition-all duration-100 hover:bg-white hover:text-black group',
+  links_text: 'text-white font-bold uppercase tracking-wide group-hover:text-black transition-colors duration-100',
+},
 
-  }
+elegante: {
+  background: 'bg-[url("/backgrounds/elegante.png")] bg-cover bg-center text-white min-h-screen font-mono',
+  avatar: 'w-28 h-28 mx-auto bg-white text-black text-4xl font-bold flex items-center justify-center border-4 border-white shadow-md',
+  links_button: 'bg-black border-2 border-white p-4 cursor-pointer transition-all duration-100 hover:bg-white hover:text-black group',
+  links_text: 'text-white font-bold uppercase tracking-wide group-hover:text-black transition-colors duration-100',
+},
+
+corporativo: {
+  background: 'bg-[url("/backgrounds/corporativo.png")] bg-cover bg-center text-white min-h-screen font-mono',
+  avatar: 'w-28 h-28 mx-auto bg-white text-black text-4xl font-bold flex items-center justify-center border-4 border-white shadow-md',
+  links_button: 'bg-black border-2 border-white p-4 cursor-pointer transition-all duration-100 hover:bg-white hover:text-black group',
+  links_text: 'text-white font-bold uppercase tracking-wide group-hover:text-black transition-colors duration-100',
+},
+
+creativo: {
+  background: 'bg-[url("/backgrounds/creativo.png")] bg-cover bg-center text-white min-h-screen font-mono',
+  avatar: 'w-28 h-28 mx-auto bg-white text-black text-4xl font-bold flex items-center justify-center border-4 border-white shadow-md',
+  links_button: 'bg-black border-2 border-white p-4 cursor-pointer transition-all duration-100 hover:bg-white hover:text-black group',
+  links_text: 'text-white font-bold uppercase tracking-wide group-hover:text-black transition-colors duration-100',
+},
+
+premium: {
+  background: 'bg-[url("/backgrounds/premium.png")] bg-cover bg-center text-white min-h-screen font-mono',
+  avatar: 'w-28 h-28 mx-auto bg-white text-black text-4xl font-bold flex items-center justify-center border-4 border-white shadow-md',
+  links_button: 'bg-black border-2 border-white p-4 cursor-pointer transition-all duration-100 hover:bg-white hover:text-black group',
+  links_text: 'text-white font-bold uppercase tracking-wide group-hover:text-black transition-colors duration-100',
+}
 
 } as const;
 
