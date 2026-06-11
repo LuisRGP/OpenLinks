@@ -15,17 +15,17 @@
     {
       "name": "WhatsApp",
       "url": "https://wa.me/525500000000",
-      "icon": "/icons/WhatsApp.svg"
+      "icon": "/icons/whatsapp.svg"
     },
     {
       "name": "Facebook",
       "url": "https://facebook.com",
-      "icon": "/icons/Facebook.svg"
+      "icon": "/icons/facebook.svg"
     },
     {
       "name": "TikTok",
       "url": "https://tiktok.com",
-      "icon": "/icons/TikTok.svg"
+      "icon": "/icons/tiktok.svg"
     },
     {
       "name": "Sitio Web",
