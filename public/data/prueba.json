@@ -1,0 +1,36 @@
+{
+  "title": "PRUEBA",
+  "description": "Accesorios premium para motocicletas",
+  "url_base": "https://prodis.mx",
+  "theme": "premium",
+
+  "profile": {
+    "name": "PRODIS MX",
+    "avatar": "/avatar/Avatar.webp",
+    "description": "Accesorios premium para motocicleta",
+    "adult": false
+  },
+
+  "links": [
+    {
+      "name": "WhatsApp",
+      "url": "https://wa.me/525500000000",
+      "icon": "/icons/whatsapp.svg"
+    },
+    {
+      "name": "Facebook",
+      "url": "https://facebook.com",
+      "icon": "/icons/facebook.svg"
+    },
+    {
+      "name": "TikTok",
+      "url": "https://tiktok.com",
+      "icon": "/icons/tiktok.svg"
+    },
+    {
+      "name": "Sitio Web",
+      "url": "https://prodis.mx",
+      "icon": "/icons/Web.svg"
+    }
+  ]
+}
