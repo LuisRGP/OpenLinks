@@ -1,4 +1,11 @@
 ---
+export async function getStaticPaths() {
+  return [
+    { params: { slug: 'prodis-mx' } },
+    { params: { slug: 'prueba' } }
+  ];
+}
+
 import Layout from "../../layouts/Layout.astro";
 import Avatar from "../../components/header.astro";
 import Adult from "../../components/adult.astro";
@@ -13,10 +20,6 @@ const files = import.meta.glob("../../../data/*.json", {
 });
 
 const profileData = files[`../../../data/${slug}.json`];
-
-if (!profileData) {
-  return Astro.redirect("/");
-}
 
 const data = profileData.default;
 
