@@ -1,7 +1,33 @@
 ---
+import Layout from "../../layouts/Layout.astro";
+import Avatar from "../../components/header.astro";
+import Link from "../../components/link.astro";
+import Footer from "../../components/footer.astro";
+import Adult from "../../components/adult.astro";
+import { getTheme } from "../../lib/getTheme.ts";
+
 import data from "../../data/prodisc-mx.json";
+
+const { links, profile, title, description, url_base, footer } = data;
+const themeStyles = getTheme(data.theme);
 ---
 
-<h1>{data.title}</h1>
-<p>{data.description}</p>
-<p>Tema: {data.theme}</p>
+<Layout themeClass={themeStyles} meta={{ title, description, url_base }}>
+	<Avatar slot="header" profile={profile} avatarClass={themeStyles.avatar} />
+
+	{profile.adult && <Adult />}
+
+	<ul class="list-none space-y-4">
+		{
+			links.map((link) => (
+				<Link
+					link={link}
+					buttonClass={themeStyles.links_button}
+					textClass={themeStyles.links_text}
+				/>
+			))
+		}
+	</ul>
+
+	<Footer slot="footer" footer={footer} />
+</Layout>
