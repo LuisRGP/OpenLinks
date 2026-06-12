@@ -15,31 +15,11 @@ import { getTheme } from "../../lib/getTheme.ts";
 
 const { slug } = Astro.params;
 
-const files = import.meta.glob("../../../data/*.json", {
+const files = import.meta.glob("/data/*.json", {
   eager: true,
 });
 
-const profileData = files[`../../../data/${slug}.json`];
-
-const data = profileData.default;
-
-const { links, profile, title, description, url_base, footer } = data;
-const themeStyles = getTheme(data.theme);
+throw new Error(JSON.stringify(Object.keys(files), null, 2));
 ---
 
-<Layout themeClass={themeStyles} meta={{ title, description, url_base }}>
-	<Avatar slot="header" profile={profile} avatarClass={themeStyles.avatar} />
-	{profile.adult && <Adult />}
-	<ul class="list-none space-y-4">
-		{
-			links.map((link) => (
-				<Link
-					link={link}
-					buttonClass={themeStyles.links_button}
-					textClass={themeStyles.links_text}
-				/>
-			))
-		}
-	</ul>
-	<Footer slot="footer" footer={footer} />
-</Layout>
+<div>test</div>
