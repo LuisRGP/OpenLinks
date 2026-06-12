@@ -1,14 +1,10 @@
+---
 export async function getStaticPaths() {
   return [
-    { params: { slug: 'prodis-mx' } },
-    { params: { slug: 'prueba' } }
+    { params: { slug: "prodis-mx" } },
+    { params: { slug: "prueba" } }
   ];
 }
-
----
-const { slug } = Astro.params;
-
-throw new Error(`SLUG: ${slug}`);
 ---
 
-<div>test</div>
+<div>Prueba</div>
