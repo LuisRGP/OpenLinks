@@ -1,4 +1,6 @@
-export async function POST({ request }) {
+import type { APIRoute } from 'astro';
+
+export const POST: APIRoute = async ({ request }) => {
   const body = await request.json();
 
   return new Response(
@@ -7,9 +9,24 @@ export async function POST({ request }) {
       recibido: body
     }),
     {
+      status: 200,
       headers: {
-        "Content-Type": "application/json"
+        'Content-Type': 'application/json'
       }
     }
   );
-}
+};
+
+export const GET: APIRoute = async () => {
+  return new Response(
+    JSON.stringify({
+      ok: true
+    }),
+    {
+      status: 200,
+      headers: {
+        'Content-Type': 'application/json'
+      }
+    }
+  );
+};
