@@ -1,7 +1,10 @@
-export async function GET() {
+export async function POST({ request }) {
+  const body = await request.json();
+
   return new Response(
     JSON.stringify({
-      ok: true
+      ok: true,
+      recibido: body
     }),
     {
       headers: {
