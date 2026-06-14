@@ -1,27 +1,30 @@
-:::writing{variant="document" id="71482"}
 name: Crear Archivos Cliente
 
 on:
-  repository_dispatch:
-    types: [crear_cliente]
+push:
+branches:
+- main
 
 jobs:
-  crear_archivos:
-    runs-on: ubuntu-latest
+crear_archivos:
+runs-on: ubuntu-latest
 
-    steps:
-      - name: Checkout
-        uses: actions/checkout@v4
+```
+steps:
+  - name: Checkout
+    uses: actions/checkout@v4
 
-      - name: Crear JSON
-        run: |
-          echo '${{ github.event.client_payload.json }}' > src/data/${{ github.event.client_payload.slug }}.json
+  - name: Crear JSON
+    run: |
+      echo '{
+        "test": "ok"
+      }' > src/data/test-action.json
 
-      - name: Commit
-        run: |
-          git config user.name "github-actions"
-          git config user.email "github-actions@github.com"
-          git add .
-          git commit -m "Crear cliente ${{ github.event.client_payload.slug }}" || exit 0
-          git push https://x-access-token:${{ secrets.GH_PAT }}@github.com/LuisRGP/OpenLinks.git HEAD:main
-:::
+  - name: Commit
+    run: |
+      git config user.name "github-actions"
+      git config user.email "github-actions@github.com"
+      git add .
+      git commit -m "Crear test-action.json" || exit 0
+      git push https://x-access-token:${{ secrets.GH_PAT }}@github.com/LuisRGP/OpenLinks.git HEAD:main
+```
