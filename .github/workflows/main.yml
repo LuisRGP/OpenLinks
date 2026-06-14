@@ -25,14 +25,3 @@ jobs:
           git commit -m "Crear cliente ${{ github.event.client_payload.slug }}" || exit 0
           git push https://x-access-token:${{ secrets.GH_PAT }}@github.com/LuisRGP/OpenLinks.git HEAD:main
 :::
-
-### Después
-
-1. Commit changes.
-2. Espera que GitHub procese el workflow.
-3. Ve a **Actions**.
-
-Respóndeme únicamente:
-
-```text id="yspwju"
-Workflow verde
