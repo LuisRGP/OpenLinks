@@ -1,0 +1,65 @@
+name: Crear Archivos Cliente
+
+on:
+repository_dispatch:
+types: [crear_cliente]
+
+jobs:
+crear_archivos:
+runs-on: ubuntu-latest
+
+```
+steps:
+  - name: Checkout
+    uses: actions/checkout@v4
+
+  - name: Crear JSON
+    run: |
+      echo '${{ github.event.client_payload.json }}' > src/data/${{ github.event.client_payload.slug }}.json
+
+  - name: Crear Astro
+    run: |
+      cat > src/pages/cliente/${{ github.event.client_payload.slug }}.astro << 'EOF'
+      ---
+      import Layout from "../../layouts/Layout.astro";
+      import Avatar from "../../components/header.astro";
+      import Link from "../../components/link.astro";
+      import Footer from "../../components/footer.astro";
+      import Adult from "../../components/adult.astro";
+      import { getTheme } from "../../lib/getTheme.ts";
+
+      import data from "../../data/${{ github.event.client_payload.slug }}.json";
+
+      const { links, profile, title, description, url_base, footer } = data;
+      const themeStyles = getTheme(data.theme);
+      ---
+
+      <Layout themeClass={themeStyles} meta={{ title, description, url_base }}>
+        <Avatar slot="header" profile={profile} avatarClass={themeStyles.avatar} />
+
+        {profile.adult && <Adult />}
+
+        <ul class="list-none space-y-4">
+          {
+            links.map((link) => (
+              <Link
+                link={link}
+                buttonClass={themeStyles.links_button}
+                textClass={themeStyles.links_text}
+              />
+            ))
+          }
+        </ul>
+
+        <Footer slot="footer" footer={footer} />
+      </Layout>
+      EOF
+
+  - name: Commit
+    run: |
+      git config user.name "github-actions"
+      git config user.email "github-actions@github.com"
+      git add .
+      git commit -m "Crear cliente ${{ github.event.client_payload.slug }}" || exit 0
+      git push https://x-access-token:${{ secrets.GH_PAT }}@github.com/LuisRGP/OpenLinks.git HEAD:main
+```
