@@ -1,4 +1,5 @@
 ---
+
 import Layout from "../../layouts/Layout.astro";
 import Avatar from "../../components/header.astro";
 import Link from "../../components/link.astro";
@@ -10,24 +11,26 @@ import data from "../../data/cliente-prueba.json";
 
 const { links, profile, title, description, url_base, footer } = data;
 const themeStyles = getTheme(data.theme);
----
+-----------------------------------------
 
-<Layout themeClass={themeStyles} meta={{ title, description, url_base }}>
-	<Avatar slot="header" profile={profile} avatarClass={themeStyles.avatar} />
+<Layout themeClass={themeStyles} meta={{ title, description, url_base }}> <Avatar slot="header" profile={profile} avatarClass={themeStyles.avatar} />
 
-	{profile.adult && <Adult />}
+```
+{profile.adult && <Adult />}
 
-	<ul class="list-none space-y-4">
-		{
-			links.map((link) => (
-				<Link
-					link={link}
-					buttonClass={themeStyles.links_button}
-					textClass={themeStyles.links_text}
-				/>
-			))
-		}
-	</ul>
+<ul class="list-none space-y-4">
+	{
+		links.map((link) => (
+			<Link
+				link={link}
+				buttonClass={themeStyles.links_button}
+				textClass={themeStyles.links_text}
+			/>
+		))
+	}
+</ul>
 
-	<Footer slot="footer" footer={footer} />
+<Footer slot="footer" footer={footer} />
+```
+
 </Layout>
