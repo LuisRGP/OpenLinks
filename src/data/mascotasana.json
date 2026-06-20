@@ -1,0 +1,36 @@
+{
+  "title": "MascotasAna",
+  "description": "Servicio de estilista para mascotas, dale ese cuidado y amor que necesitan.",
+  "url_base": "https://listado.mercadolibre.com.mx/pagina/luisrgpgarcia/#component=menu_corridors&tracking_id=ff7c2b769e07cba2899b0eed3bb41adc&label=Todos+los+productos&global_position=1",
+  "theme": "minimalista",
+
+  "profile": {
+    "name": "MascotasAna",
+    "avatar": "/avatar/Avatar.webp",
+    "description": "",
+    "adult": false
+  },
+
+  "links": [
+    {
+      "name": "WhatsApp",
+      "url": "https://wa.me/4545345345345",
+      "icon": "/icons/whatsapp.svg"
+    },
+    {
+      "name": "Facebook",
+      "url": "https://www.facebook.com/PulsoBreak",
+      "icon": "/icons/facebook.svg"
+    },
+    {
+      "name": "TikTok",
+      "url": "https://www.tiktok.com/@prodiscmx",
+      "icon": "/icons/tiktok.svg"
+    },
+    {
+      "name": "Sitio Web",
+      "url": "https://listado.mercadolibre.com.mx/pagina/luisrgpgarcia/#component=menu_corridors&tracking_id=ff7c2b769e07cba2899b0eed3bb41adc&label=Todos+los+productos&global_position=1",
+      "icon": "/icons/Web.svg"
+    }
+  ]
+}
