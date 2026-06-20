@@ -7,8 +7,37 @@ import Adult from "../../components/adult.astro";
 import { getTheme } from "../../lib/getTheme.ts";
 
 export async function getStaticPaths() {
-  return [];
+  return [
+    {
+      params: {
+        slug: "test19jun-3"
+      }
+    }
+  ];
 }
+
+const data = await import(`../../data/test19jun-3.json`);
+
+const { links, profile, title, description, url_base, footer } = data.default;
+const themeStyles = getTheme(data.default.theme);
 ---
 
-<h1>Prueba slug</h1>
+<Layout themeClass={themeStyles} meta={{ title, description, url_base }}>
+	<Avatar slot="header" profile={profile} avatarClass={themeStyles.avatar} />
+
+	{profile.adult && <Adult />}
+
+	<ul class="list-none space-y-4">
+		{
+			links.map((link) => (
+				<Link
+					link={link}
+					buttonClass={themeStyles.links_button}
+					textClass={themeStyles.links_text}
+				/>
+			))
+		}
+	</ul>
+
+	<Footer slot="footer" footer={footer} />
+</Layout>
