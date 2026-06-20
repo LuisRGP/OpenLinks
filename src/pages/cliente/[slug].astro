@@ -7,16 +7,18 @@ import Adult from "../../components/adult.astro";
 import { getTheme } from "../../lib/getTheme.ts";
 
 export async function getStaticPaths() {
-  return [
-    {
-      params: {
-        slug: "test19jun-3"
-      }
-    }
-  ];
+	const files = import.meta.glob("../../data/*.json");
+
+	return Object.keys(files).map((path) => ({
+		params: {
+			slug: path.split("/").pop().replace(".json", "")
+		}
+	}));
 }
 
-const data = await import(`../../data/test19jun-3.json`);
+const { slug } = Astro.params;
+
+const data = await import(`../../data/${slug}.json`);
 
 const { links, profile, title, description, url_base, footer } = data.default;
 const themeStyles = getTheme(data.default.theme);
