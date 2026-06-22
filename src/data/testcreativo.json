@@ -1,0 +1,41 @@
+{
+  "title": "TestCreativo",
+  "description": "vendemos todo tipo de gorras y sombreros",
+  "url_base": "https://listado.mercadolibre.com.mx/pagina/luisrgpgarcia/#component=menu_corridors&tracking_id=ff7c2b769e07cba2899b0eed3bb41adc&label=Todos+los+productos&global_position=1",
+  "theme": "creativo",
+
+  "profile": {
+    "name": "TestCreativo",
+    "avatar": "https://storage.tally.so/private/oni4.jpg?id=Yg89Qv&accessToken=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IllnODlRdiIsImZvcm1JZCI6IkVrNnk0TCIsImlhdCI6MTc4MjE3MDQ4Mn0.CHu7uPdCOMCn5AT12kZzy_xUbuEhpv08FWsqRkK9Cec&signature=d60753dac15598595178e21a2c6022fcfab7fa128e6aa43916d1cb45eaf485d1",
+    "description": "vendemos todo tipo de gorras y sombreros",
+    "adult": false
+  },
+
+  "links": [
+    {
+      "name": "WhatsApp",
+      "url": "https://wa.me/4545345345345",
+      "icon": "/icons/whatsapp.svg"
+    },
+    {
+      "name": "Facebook",
+      "url": "https://www.facebook.com/PulsoBreak",
+      "icon": "/icons/facebook.svg"
+    },
+    {
+      "name": "TikTok",
+      "url": "https://www.tiktok.com/@prodiscmx",
+      "icon": "/icons/tiktok.svg"
+    },
+    {
+      "name": "Sitio Web",
+      "url": "https://listado.mercadolibre.com.mx/pagina/luisrgpgarcia/#component=menu_corridors&tracking_id=ff7c2b769e07cba2899b0eed3bb41adc&label=Todos+los+productos&global_position=1",
+      "icon": "/icons/Web.svg"
+    },
+    {
+      "name": "Youtube",
+      "url": "www.ygusyduas.com",
+      "icon": "/icons/youtube.svg"
+    }
+  ]
+}
