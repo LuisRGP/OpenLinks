@@ -1,0 +1,41 @@
+{
+  "title": "Testtema2",
+  "description": "tema corporativo para una tienda electronica de venta de pan casero",
+  "url_base": "https://listado.mercadolibre.com.mx/pagina/luisrgpgarcia/#component=menu_corridors&tracking_id=ff7c2b769e07cba2899b0eed3bb41adc&label=Todos+los+productos&global_position=1",
+  "theme": "corporativo",
+
+  "profile": {
+    "name": "Testtema2",
+    "avatar": "https://storage.tally.so/private/drag2.jpg?id=rp7JEL&accessToken=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6InJwN0pFTCIsImZvcm1JZCI6IkVrNnk0TCIsImlhdCI6MTc4MjE2NjM1M30.YeP0zuF0jR9H1Y7Enfa6olGk2AO-DtPSxcmCa81Z2Xc&signature=f121043e8d0f67ef7bdb8e37449b1e592005ee05fd1366c7770e25d05ec90327",
+    "description": "tema corporativo para una tienda electronica de venta de pan casero",
+    "adult": false
+  },
+
+  "links": [
+    {
+      "name": "WhatsApp",
+      "url": "https://wa.me/4545345345345",
+      "icon": "/icons/whatsapp.svg"
+    },
+    {
+      "name": "Facebook",
+      "url": "https://www.facebook.com/PulsoBreak",
+      "icon": "/icons/facebook.svg"
+    },
+    {
+      "name": "TikTok",
+      "url": "https://www.tiktok.com/@prodiscmx",
+      "icon": "/icons/tiktok.svg"
+    },
+    {
+      "name": "Sitio Web",
+      "url": "https://listado.mercadolibre.com.mx/pagina/luisrgpgarcia/#component=menu_corridors&tracking_id=ff7c2b769e07cba2899b0eed3bb41adc&label=Todos+los+productos&global_position=1",
+      "icon": "/icons/Web.svg"
+    },
+    {
+      "name": "Youtube",
+      "url": "www.ygusyduas.com",
+      "icon": "/icons/youtube.svg"
+    }
+  ]
+}
