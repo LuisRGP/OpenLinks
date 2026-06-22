@@ -1,0 +1,41 @@
+{
+  "title": "Av3",
+  "description": "vendemos pescado fresco a todo cdmx pregunta por nuestra calidad, somos los mejores",
+  "url_base": "https://listado.mercadolibre.com.mx/pagina/luisrgpgarcia/#component=menu_corridors&tracking_id=ff7c2b769e07cba2899b0eed3bb41adc&label=Todos+los+productos&global_position=1",
+  "theme": "minimalista",
+
+  "profile": {
+    "name": "Av3",
+    "avatar": "https://storage.tally.so/private/jum3.jpg?id=2Z0k6g&accessToken=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjJaMGs2ZyIsImZvcm1JZCI6IkVrNnk0TCIsImlhdCI6MTc4MjE1NTgwN30.YMD-wIY71Ww-F6yzo_dEfBLCEXiQ5g3wefmpmum9Gxc&signature=5dbeb59eeae97007c57afab756c3ab2976ee10e04166551a2ba806084c95549b",
+    "description": "vendemos pescado fresco a todo cdmx pregunta por nuestra calidad, somos los mejores",
+    "adult": false
+  },
+
+  "links": [
+    {
+      "name": "WhatsApp",
+      "url": "https://wa.me/4545345345345",
+      "icon": "/icons/whatsapp.svg"
+    },
+    {
+      "name": "Facebook",
+      "url": "https://www.facebook.com/PulsoBreak",
+      "icon": "/icons/facebook.svg"
+    },
+    {
+      "name": "TikTok",
+      "url": "https://www.tiktok.com/@prodiscmx",
+      "icon": "/icons/tiktok.svg"
+    },
+    {
+      "name": "Sitio Web",
+      "url": "https://listado.mercadolibre.com.mx/pagina/luisrgpgarcia/#component=menu_corridors&tracking_id=ff7c2b769e07cba2899b0eed3bb41adc&label=Todos+los+productos&global_position=1",
+      "icon": "/icons/Web.svg"
+    },
+    {
+      "name": "Youtube",
+      "url": "www.ygusyduas.com",
+      "icon": "/icons/youtube.svg"
+    }
+  ]
+}
