@@ -1,0 +1,41 @@
+{
+  "title": "TestCorporativo",
+  "description": "buffet de abogados, te ayudamos en cualquier tramite legal",
+  "url_base": "https://listado.mercadolibre.com.mx/pagina/luisrgpgarcia/#component=menu_corridors&tracking_id=ff7c2b769e07cba2899b0eed3bb41adc&label=Todos+los+productos&global_position=1",
+  "theme": "corporativo",
+
+  "profile": {
+    "name": "TestCorporativo",
+    "avatar": "https://storage.tally.so/private/Fresa1.jpg?id=OgvVeK&accessToken=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6Ik9ndlZlSyIsImZvcm1JZCI6IkVrNnk0TCIsImlhdCI6MTc4MjE3MjUyM30.tbpZ1qxxlHQ4yY7d5tJc4MRurdvGvwnPMTnWzS68TbE&signature=a8083b76ee848bd94c4b357b6ef29cf0b17e349287059e8f9bf19cc1288ef581",
+    "description": "buffet de abogados, te ayudamos en cualquier tramite legal",
+    "adult": false
+  },
+
+  "links": [
+    {
+      "name": "WhatsApp",
+      "url": "https://wa.me/5567888893",
+      "icon": "/icons/whatsapp.svg"
+    },
+    {
+      "name": "Facebook",
+      "url": "https://www.facebook.com/PulsoBreak",
+      "icon": "/icons/facebook.svg"
+    },
+    {
+      "name": "TikTok",
+      "url": "https://www.tiktok.com/@prodiscmx",
+      "icon": "/icons/tiktok.svg"
+    },
+    {
+      "name": "Sitio Web",
+      "url": "https://listado.mercadolibre.com.mx/pagina/luisrgpgarcia/#component=menu_corridors&tracking_id=ff7c2b769e07cba2899b0eed3bb41adc&label=Todos+los+productos&global_position=1",
+      "icon": "/icons/Web.svg"
+    },
+    {
+      "name": "Youtube",
+      "url": "www.ygusyduas.com",
+      "icon": "/icons/youtube.svg"
+    }
+  ]
+}
