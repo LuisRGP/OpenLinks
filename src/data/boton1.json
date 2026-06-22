@@ -1,0 +1,41 @@
+{
+  "title": "Boton1",
+  "description": "",
+  "url_base": "",
+  "theme": "premium",
+
+  "profile": {
+    "name": "Boton1",
+    "avatar": "https://storage.tally.so/private/astralo1.jpg?id=XgX8AO&accessToken=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IlhnWDhBTyIsImZvcm1JZCI6IkVrNnk0TCIsImlhdCI6MTc4MjE2NzAzNH0.RkhibdvtWUgpM0SPCcbslnbs2uDmhTIebPX8vDh-Ek4&signature=0c925aa9f8fbc0bef595607f50637c5dde19e185d57e31e90519cfb6e70008a0",
+    "description": "",
+    "adult": false
+  },
+
+  "links": [
+    {
+      "name": "WhatsApp",
+      "url": "https://wa.me/4545345345345",
+      "icon": "/icons/whatsapp.svg"
+    },
+    {
+      "name": "Facebook",
+      "url": "",
+      "icon": "/icons/facebook.svg"
+    },
+    {
+      "name": "TikTok",
+      "url": "",
+      "icon": "/icons/tiktok.svg"
+    },
+    {
+      "name": "Sitio Web",
+      "url": "",
+      "icon": "/icons/Web.svg"
+    },
+    {
+      "name": "Youtube",
+      "url": "",
+      "icon": "/icons/youtube.svg"
+    }
+  ]
+}
