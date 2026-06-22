@@ -62,7 +62,7 @@ elegante: {
 
   avatar: 'w-28 h-28 mx-auto rounded-full border-4 border-white/40 shadow-xl flex items-center justify-center overflow-hidden',
 
-  links_button: 'bg-gradient-to-r from-slate-50 via-white to-pink-100 rounded-full p-4 cursor-pointer transition-all duration-300 hover:scale-[1.02] shadow-[0_8px_18px_rgba(0,0,0,0.18)] group',
+  links_button: 'bg-gradient-to-r from-amber-50 via-rose-50 to-pink-200 rounded-full p-4 cursor-pointer transition-all duration-300 hover:scale-[1.02] shadow-[0_8px_18px_rgba(0,0,0,0.18)] group',
 
   links_text: 'text-slate-700 font-bold uppercase tracking-wide transition-colors duration-100',
 },
