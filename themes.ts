@@ -68,7 +68,7 @@ elegante: {
 },
 
 corporativo: {
-  background: 'bg-[url("/backgrounds/creativo.png")] bg-cover bg-center text-white min-h-screen font-mono',
+  background: 'bg-[url("/backgrounds/corporativo.png")] bg-cover bg-center text-white min-h-screen font-mono',
 
   avatar: 'w-28 h-28 mx-auto rounded-full border-4 border-white/40 shadow-xl flex items-center justify-center overflow-hidden',
 
