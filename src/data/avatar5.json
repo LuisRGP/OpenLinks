@@ -1,0 +1,36 @@
+{
+  "title": "Avatar5",
+  "description": "Minimalista",
+  "url_base": "https://www.facebook.com/PulsoBreak",
+  "theme": "minimalista",
+
+  "profile": {
+    "name": "Avatar5",
+    "avatar": "test 5 de estilo minimalista de tarjeta digital",
+    "description": "Minimalista",
+    "adult": false
+  },
+
+  "links": [
+    {
+      "name": "WhatsApp",
+      "url": "https://wa.me/",
+      "icon": "/icons/whatsapp.svg"
+    },
+    {
+      "name": "Facebook",
+      "url": "pulsoluis@gmail.com",
+      "icon": "/icons/facebook.svg"
+    },
+    {
+      "name": "TikTok",
+      "url": "www.ygusyduas.com",
+      "icon": "/icons/tiktok.svg"
+    },
+    {
+      "name": "Sitio Web",
+      "url": "https://www.facebook.com/PulsoBreak",
+      "icon": "/icons/Web.svg"
+    }
+  ]
+}
