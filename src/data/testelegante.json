@@ -1,0 +1,41 @@
+{
+  "title": "TestElegante",
+  "description": "tema elegante de venta de perfumes y escencias de lujo",
+  "url_base": "https://listado.mercadolibre.com.mx/pagina/luisrgpgarcia/#component=menu_corridors&tracking_id=ff7c2b769e07cba2899b0eed3bb41adc&label=Todos+los+productos&global_position=1",
+  "theme": "elegante",
+
+  "profile": {
+    "name": "TestElegante",
+    "avatar": "https://storage.tally.so/private/IMG-20231028-WA0005.jpg?id=1x8BAQ&accessToken=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjF4OEJBUSIsImZvcm1JZCI6IkVrNnk0TCIsImlhdCI6MTc4MjE3MTY1M30.o_W0lNwsLDXZUMTK1_WyIgACWZc4-BwRToDSPVTkwiI&signature=a7542d12fca63c72ff228cbfc54925d34c81529a6d5c2d2b8e8dfc5ab9203941",
+    "description": "tema elegante de venta de perfumes y escencias de lujo",
+    "adult": false
+  },
+
+  "links": [
+    {
+      "name": "WhatsApp",
+      "url": "https://wa.me/5567888893",
+      "icon": "/icons/whatsapp.svg"
+    },
+    {
+      "name": "Facebook",
+      "url": "https://www.facebook.com/PulsoBreak",
+      "icon": "/icons/facebook.svg"
+    },
+    {
+      "name": "TikTok",
+      "url": "https://www.tiktok.com/@prodiscmx",
+      "icon": "/icons/tiktok.svg"
+    },
+    {
+      "name": "Sitio Web",
+      "url": "https://listado.mercadolibre.com.mx/pagina/luisrgpgarcia/#component=menu_corridors&tracking_id=ff7c2b769e07cba2899b0eed3bb41adc&label=Todos+los+productos&global_position=1",
+      "icon": "/icons/Web.svg"
+    },
+    {
+      "name": "Youtube",
+      "url": "https://www.youtube.com/watch?v=hFk_8Vamc4c",
+      "icon": "/icons/youtube.svg"
+    }
+  ]
+}
