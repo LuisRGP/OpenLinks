@@ -1,0 +1,41 @@
+{
+  "title": "testtema3",
+  "description": "Vendemos ropa de marca en todo cdmx estilo juvenil y sport",
+  "url_base": "",
+  "theme": "elegante",
+
+  "profile": {
+    "name": "testtema3",
+    "avatar": "https://storage.tally.so/private/NK4502.PNG?id=Yg8JeB&accessToken=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IllnOEplQiIsImZvcm1JZCI6IkVrNnk0TCIsImlhdCI6MTc4MjE2NjgxOX0.1cDKKl8_puo5gKcyPUqYEKkw1wkXP0Kl0D7G5NuyuGo&signature=a60ad509401baf9cb4a7333a27bddb774ebd5c21699e24544e3c77f96b974246",
+    "description": "Vendemos ropa de marca en todo cdmx estilo juvenil y sport",
+    "adult": false
+  },
+
+  "links": [
+    {
+      "name": "WhatsApp",
+      "url": "https://wa.me/4545345345345",
+      "icon": "/icons/whatsapp.svg"
+    },
+    {
+      "name": "Facebook",
+      "url": "https://www.facebook.com/PulsoBreak",
+      "icon": "/icons/facebook.svg"
+    },
+    {
+      "name": "TikTok",
+      "url": "https://www.tiktok.com/@prodiscmx",
+      "icon": "/icons/tiktok.svg"
+    },
+    {
+      "name": "Sitio Web",
+      "url": "",
+      "icon": "/icons/Web.svg"
+    },
+    {
+      "name": "Youtube",
+      "url": "https://www.youtube.com/watch?v=hFk_8Vamc4c",
+      "icon": "/icons/youtube.svg"
+    }
+  ]
+}
