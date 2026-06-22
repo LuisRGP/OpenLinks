@@ -1,0 +1,36 @@
+{
+  "title": "Avatar3",
+  "description": "Corporativo",
+  "url_base": "",
+  "theme": "minimalista",
+
+  "profile": {
+    "name": "Avatar3",
+    "avatar": "estilo corporativo de tarjeta web",
+    "description": "Corporativo",
+    "adult": false
+  },
+
+  "links": [
+    {
+      "name": "WhatsApp",
+      "url": "https://wa.me/",
+      "icon": "/icons/whatsapp.svg"
+    },
+    {
+      "name": "Facebook",
+      "url": "",
+      "icon": "/icons/facebook.svg"
+    },
+    {
+      "name": "TikTok",
+      "url": "",
+      "icon": "/icons/tiktok.svg"
+    },
+    {
+      "name": "Sitio Web",
+      "url": "",
+      "icon": "/icons/Web.svg"
+    }
+  ]
+}
