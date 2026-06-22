@@ -1,0 +1,36 @@
+{
+  "title": "Avatar2",
+  "description": "Azul",
+  "url_base": "https://www.tiktok.com/@prodiscmx",
+  "theme": "minimalista",
+
+  "profile": {
+    "name": "Avatar2",
+    "avatar": "",
+    "description": "Azul",
+    "adult": false
+  },
+
+  "links": [
+    {
+      "name": "WhatsApp",
+      "url": "https://wa.me/",
+      "icon": "/icons/whatsapp.svg"
+    },
+    {
+      "name": "Facebook",
+      "url": "",
+      "icon": "/icons/facebook.svg"
+    },
+    {
+      "name": "TikTok",
+      "url": "",
+      "icon": "/icons/tiktok.svg"
+    },
+    {
+      "name": "Sitio Web",
+      "url": "https://www.tiktok.com/@prodiscmx",
+      "icon": "/icons/Web.svg"
+    }
+  ]
+}
