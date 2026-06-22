@@ -65,10 +65,13 @@ elegante: {
 },
 
 corporativo: {
-  background: 'bg-[url("/backgrounds/corporativo.png")] bg-cover bg-center text-white min-h-screen font-mono',
-  avatar: 'w-28 h-28 mx-auto bg-white text-black text-4xl font-bold flex items-center justify-center border-4 border-white shadow-md',
-  links_button: 'bg-black border-2 border-white p-4 cursor-pointer transition-all duration-100 hover:bg-white hover:text-black group',
-  links_text: 'text-white font-bold uppercase tracking-wide group-hover:text-black transition-colors duration-100',
+  background: 'bg-[url("/backgrounds/creativo.png")] bg-cover bg-center text-white min-h-screen font-mono',
+
+  avatar: 'w-28 h-28 mx-auto rounded-full border-4 border-white/40 shadow-xl flex items-center justify-center overflow-hidden',
+
+  links_button: 'bg-gradient-to-r from-cyan-400 via-lime-300 to-yellow-400 rounded-full p-4 cursor-pointer transition-all duration-300 hover:scale-[1.03] shadow-[0_10px_20px_rgba(0,0,0,0.35)] group',
+
+  links_text: 'text-white font-bold tracking-wide drop-shadow-md',
 },
 
 creativo: {
