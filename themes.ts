@@ -52,7 +52,7 @@ export const themes = {
 
   avatar: 'w-32 h-32 mx-auto rounded-full border-4 border-white/40 shadow-xl flex items-center justify-center overflow-hidden',
 
-  links_button: 'backdrop-blur-md bg-white/20 border border-white/30 rounded-full p-4 cursor-pointer transition-all duration-300 hover:bg-white/30 hover:scale-[1.02] shadow-lg group',
+  links_button: 'backdrop-blur-md bg-white/20 border border-white/30 rounded-full px-4 py-2 cursor-pointer transition-all duration-300 hover:bg-white/30 hover:scale-[1.02] shadow-lg group',
 
   links_text: 'text-white font-medium tracking-wide transition-colors duration-200',
 },
