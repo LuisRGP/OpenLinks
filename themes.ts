@@ -62,7 +62,7 @@ elegante: {
 
   avatar: 'w-32 h-32 mx-auto rounded-full border-4 border-white/40 shadow-xl flex items-center justify-center overflow-hidden',
 
-  links_button: 'bg-gradient-to-r from-amber-50 via-rose-50 to-pink-200 rounded-full p-4 cursor-pointer transition-all duration-300 hover:scale-[1.02] shadow-[0_8px_18px_rgba(0,0,0,0.18)] group',
+  links_button: 'bg-gradient-to-r from-amber-50 via-rose-50 to-pink-200 rounded-full px-4 py-2 cursor-pointer transition-all duration-300 hover:scale-[1.02] shadow-[0_8px_18px_rgba(0,0,0,0.18)] group w-[70%] mx-auto',
 
   links_text: 'text-slate-700 font-bold uppercase tracking-wide transition-colors duration-100',
 },
@@ -72,7 +72,7 @@ corporativo: {
 
   avatar: 'w-32 h-32 mx-auto rounded-full border-4 border-white/40 shadow-xl flex items-center justify-center overflow-hidden',
 
-  links_button: 'bg-gradient-to-r from-sky-200 via-slate-100 to-pink-200 rounded-full p-4 cursor-pointer transition-all duration-300 hover:scale-[1.02] shadow-[0_8px_18px_rgba(0,0,0,0.18)] group',
+  links_button: 'bg-gradient-to-r from-sky-200 via-slate-100 to-pink-200 rounded-full px-4 py-2 cursor-pointer transition-all duration-300 hover:scale-[1.02] shadow-[0_8px_18px_rgba(0,0,0,0.18)] group w-[70%] mx-auto',
 
   links_text: 'text-slate-700 font-bold uppercase tracking-wide transition-colors duration-100',
 },
@@ -82,7 +82,7 @@ creativo: {
 
   avatar: 'w-32 h-32 mx-auto rounded-full border-4 border-white/40 shadow-xl flex items-center justify-center overflow-hidden',
 
-  links_button: 'bg-gradient-to-r from-cyan-400 via-lime-300 to-yellow-400 rounded-full p-4 cursor-pointer transition-all duration-300 hover:scale-[1.03] shadow-[0_10px_20px_rgba(0,0,0,0.35)] group',
+  links_button: 'bg-gradient-to-r from-cyan-400 via-lime-300 to-yellow-400 rounded-full px-4 py-2 cursor-pointer transition-all duration-300 hover:scale-[1.03] shadow-[0_10px_20px_rgba(0,0,0,0.35)] group w-[70%] mx-auto',
 
   links_text: 'text-white font-bold tracking-wide drop-shadow-md',
 },
@@ -92,7 +92,7 @@ premium: {
 
   avatar: 'w-32 h-32 mx-auto rounded-full border-4 border-white/40 shadow-xl flex items-center justify-center overflow-hidden',
 
-  links_button: 'bg-white/5 backdrop-blur-sm border-2 border-white/70 rounded-full p-4 cursor-pointer transition-all duration-300 hover:bg-white/10 hover:scale-[1.02] shadow-[0_8px_25px_rgba(255,255,255,0.08)] group',
+  links_button: 'bg-white/5 backdrop-blur-sm border-2 border-white/70 rounded-full px-4 py-2 cursor-pointer transition-all duration-300 hover:bg-white/10 hover:scale-[1.02] shadow-[0_8px_25px_rgba(255,255,255,0.08)] group w-[70%] mx-auto',
 
   links_text: 'text-white font-bold uppercase tracking-wide transition-colors duration-100',
 }
