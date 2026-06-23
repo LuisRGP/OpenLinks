@@ -1,0 +1,41 @@
+{
+  "title": "Luis Ricardo García Perez",
+  "description": "Soy un artista digital enfocado a generar contenido 3d y video de calidad para ámbitos medicos y artísticos.",
+  "url_base": "",
+  "theme": "minimalista",
+
+  "profile": {
+    "name": "Luis Ricardo García Perez",
+    "avatar": "https://storage.tally.so/private/1757742995781.jpg?id=epd0Q0&accessToken=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6ImVwZDBRMCIsImZvcm1JZCI6IkVrNnk0TCIsImlhdCI6MTc4MjI0NTM2N30.s4eJc0bvhGcVa6-vkEdg3FbJgxDcSlLhCX8I832-J9g&signature=70d3cc1bb3d3e6854ae1e0c38e8e221ac9f48c660f1adf29292af229fe6894c1",
+    "description": "Soy un artista digital enfocado a generar contenido 3d y video de calidad para ámbitos medicos y artísticos.",
+    "adult": false
+  },
+
+  "links": [
+    {
+      "name": "WhatsApp",
+      "url": "https://wa.me/5528663253",
+      "icon": "/icons/whatsapp.svg"
+    },
+    {
+      "name": "Facebook",
+      "url": "https://www.facebook.com/share/1DB9hxvwBB/",
+      "icon": "/icons/facebook.svg"
+    },
+    {
+      "name": "TikTok",
+      "url": "",
+      "icon": "/icons/tiktok.svg"
+    },
+    {
+      "name": "Sitio Web",
+      "url": "",
+      "icon": "/icons/Web.svg"
+    },
+    {
+      "name": "Youtube",
+      "url": "",
+      "icon": "/icons/youtube.svg"
+    }
+  ]
+}
