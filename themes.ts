@@ -58,7 +58,7 @@ export const themes = {
 },
 
 elegante: {
-  background: 'bg-[url("/backgrounds/elegante.png")] bg-cover bg-center text-white min-h-screen font-mono',
+  background: 'bg-[url("/backgrounds/elegante.png")] bg-cover bg-center text-white min-h-screen',
 
   avatar: 'w-32 h-32 mx-auto rounded-full border-4 border-white/40 shadow-xl flex items-center justify-center overflow-hidden',
 
@@ -68,7 +68,7 @@ elegante: {
 },
 
 corporativo: {
-  background: 'bg-[url("/backgrounds/corporativo.png")] bg-cover bg-center text-white min-h-screen font-mono',
+  background: 'bg-[url("/backgrounds/corporativo.png")] bg-cover bg-center text-white min-h-screen',
 
   avatar: 'w-32 h-32 mx-auto rounded-full border-4 border-white/40 shadow-xl flex items-center justify-center overflow-hidden',
 
@@ -78,7 +78,7 @@ corporativo: {
 },
 
 creativo: {
-  background: 'bg-[url("/backgrounds/creativo.png")] bg-cover bg-center text-white min-h-screen font-mono',
+  background: 'bg-[url("/backgrounds/creativo.png")] bg-cover bg-center text-white min-h-screen',
 
   avatar: 'w-32 h-32 mx-auto rounded-full border-4 border-white/40 shadow-xl flex items-center justify-center overflow-hidden',
 
@@ -88,7 +88,7 @@ creativo: {
 },
 
 premium: {
-  background: 'bg-[url("/backgrounds/premium.png")] bg-cover bg-center text-white min-h-screen font-mono',
+  background: 'bg-[url("/backgrounds/premium.png")] bg-cover bg-center text-white min-h-screen',
 
   avatar: 'w-32 h-32 mx-auto rounded-full border-4 border-white/40 shadow-xl flex items-center justify-center overflow-hidden',
 
