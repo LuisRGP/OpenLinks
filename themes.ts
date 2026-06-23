@@ -54,7 +54,7 @@ export const themes = {
 
   links_button: 'backdrop-blur-md bg-white/20 border border-white/30 rounded-full px-4 py-2 cursor-pointer transition-all duration-300 hover:bg-white/30 hover:scale-[1.02] shadow-lg group w-[70%] mx-auto',
 
-  links_text: 'text-[#a2bda] font-bold uppercase tracking-wide transition-colors duration-200',
+  links_text: 'text-[#a2bdba] font-bold uppercase tracking-wide transition-colors duration-200',
 },
 
 elegante: {
