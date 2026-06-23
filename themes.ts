@@ -89,9 +89,12 @@ creativo: {
 
 premium: {
   background: 'bg-[url("/backgrounds/premium.png")] bg-cover bg-center text-white min-h-screen font-mono',
-  avatar: 'w-28 h-28 mx-auto bg-white text-black text-4xl font-bold flex items-center justify-center border-4 border-white shadow-md',
-  links_button: 'bg-black border-2 border-white p-4 cursor-pointer transition-all duration-100 hover:bg-white hover:text-black group',
-  links_text: 'text-white font-bold uppercase tracking-wide group-hover:text-black transition-colors duration-100',
+
+  avatar: 'w-28 h-28 mx-auto rounded-full border-4 border-white/40 shadow-xl flex items-center justify-center overflow-hidden',
+
+  links_button: 'bg-white/5 backdrop-blur-sm border-2 border-white/70 rounded-full p-4 cursor-pointer transition-all duration-300 hover:bg-white/10 hover:scale-[1.02] shadow-[0_8px_25px_rgba(255,255,255,0.08)] group',
+
+  links_text: 'text-white font-bold uppercase tracking-wide transition-colors duration-100',
 }
 
 } as const;
