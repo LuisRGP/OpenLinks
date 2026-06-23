@@ -1,0 +1,41 @@
+{
+  "title": "Premium",
+  "description": "vendemos pantallas para computadoras en todas las medidas",
+  "url_base": "",
+  "theme": "premium",
+
+  "profile": {
+    "name": "Premium",
+    "avatar": "https://storage.tally.so/private/WhatsApp-Image-2024-10-08-at-1.09.04-PM.jpeg?id=GgWkRp&accessToken=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IkdnV2tScCIsImZvcm1JZCI6IkVrNnk0TCIsImlhdCI6MTc4MjE3MzA5MX0.PxN0d1L7phwUCWrnDWVD2SAy_-LPZ5FKs4v57knxGmw&signature=261db0e92944429794609550232cae26ef5010e1952486c78fef437fffa8a16b",
+    "description": "vendemos pantallas para computadoras en todas las medidas",
+    "adult": false
+  },
+
+  "links": [
+    {
+      "name": "WhatsApp",
+      "url": "https://wa.me/5567888893",
+      "icon": "/icons/whatsapp.svg"
+    },
+    {
+      "name": "Facebook",
+      "url": "https://www.facebook.com/PulsoBreak",
+      "icon": "/icons/facebook.svg"
+    },
+    {
+      "name": "TikTok",
+      "url": "",
+      "icon": "/icons/tiktok.svg"
+    },
+    {
+      "name": "Sitio Web",
+      "url": "",
+      "icon": "/icons/Web.svg"
+    },
+    {
+      "name": "Youtube",
+      "url": "",
+      "icon": "/icons/youtube.svg"
+    }
+  ]
+}
