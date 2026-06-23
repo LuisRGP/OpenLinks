@@ -115,3 +115,9 @@
 .pixel-corners::after {
   margin: -4px;
 }
+
+.text-glow {
+  text-shadow:
+    0 0 8px rgba(255,255,255,0.35),
+    0 0 16px rgba(255,255,255,0.25);
+}
