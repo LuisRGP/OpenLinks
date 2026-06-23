@@ -42,7 +42,7 @@ export const themes = {
     links_text: 'text-white font-medium group-hover:text-pink-200 transition-colors',
   },
   brutalism: {
-    background: 'bg-[url("/backgrounds/elegante.png")] bg-cover bg-center text-white min-h-screen font-mono',
+    background: 'bg-[url("/backgrounds/elegante.png")] bg-cover bg-center text-white min-h-screen',
     avatar: 'w-28 h-28 mx-auto bg-white text-black text-4xl font-bold flex items-center justify-center border-4 border-white shadow-md',
     links_button: 'bg-black border-2 border-white p-4 cursor-pointer transition-all duration-100 hover:bg-white grup-hover:text-center hover:text-black group',
     links_text: 'text-white font-bold uppercase tracking-wide group-hover:text-black hover:text-center transition-colors duration-100',
