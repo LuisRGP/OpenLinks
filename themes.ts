@@ -48,7 +48,7 @@ export const themes = {
     links_text: 'text-white font-bold uppercase tracking-wide group-hover:text-black hover:text-center transition-colors duration-100',
 },
     minimalista: {
-  background: 'bg-[url("/backgrounds/minimalista.png")] bg-cover bg-center text-white min-h-screen font-mono',
+  background: 'bg-[url("/backgrounds/minimalista.png")] bg-cover bg-center text-white min-h-screen',
 
   avatar: 'w-32 h-32 mx-auto rounded-full border-4 border-white/40 shadow-xl flex items-center justify-center overflow-hidden',
 
