@@ -72,9 +72,9 @@ corporativo: {
 
   avatar: 'w-28 h-28 mx-auto rounded-full border-4 border-white/40 shadow-xl flex items-center justify-center overflow-hidden',
 
-  links_button: 'bg-gradient-to-r from-cyan-400 via-lime-300 to-yellow-400 rounded-full p-4 cursor-pointer transition-all duration-300 hover:scale-[1.03] shadow-[0_10px_20px_rgba(0,0,0,0.35)] group',
+  links_button: 'bg-gradient-to-r from-sky-200 via-slate-100 to-pink-200 rounded-full p-4 cursor-pointer transition-all duration-300 hover:scale-[1.02] shadow-[0_8px_18px_rgba(0,0,0,0.18)] group',
 
-  links_text: 'text-white font-bold tracking-wide drop-shadow-md',
+  links_text: 'text-slate-700 font-bold uppercase tracking-wide transition-colors duration-100',
 },
 
 creativo: {
