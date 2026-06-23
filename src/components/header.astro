@@ -6,15 +6,17 @@ const { profile, avatarClass } = Astro.props;
 	<div class="relative inline-block mb-4">
 		<img
 			src={profile.avatar || "avatar/Avatar.webp"}
-	alt={`${profile.name} avatar`}
-	width="200"
-	height="200"
-	class={`${avatarClass} object-cover rounded-full`}
+			alt={`${profile.name} avatar`}
+			width="200"
+			height="200"
+			class={`${avatarClass} object-cover rounded-full`}
 		/>
-		<h1 class="text-2xl font-bold  mt-6 mb-1">
+
+		<h1 class="text-2xl font-bold mt-6 mb-1 drop-shadow-[4px_4px_0px_rgba(0,0,0,0.60)]">
 			{profile.name}
 		</h1>
-		<p class="text-sm max-w-xs mx-auto">
+
+		<p class="text-sm max-w-xs mx-auto drop-shadow-[3px_3px_0px_rgba(0,0,0,0.60)]">
 			{profile.description}
 		</p>
 	</div>
