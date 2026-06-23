@@ -50,7 +50,7 @@ export const themes = {
     minimalista: {
   background: 'bg-[url("/backgrounds/minimalista.png")] bg-cover bg-center text-white min-h-screen',
 
-  avatar: 'w-32 h-32 mx-auto rounded-full border-4 border-white/40 shadow-xl flex items-center justify-center overflow-hidden',
+  avatar: 'w-38 h-38 mx-auto rounded-full border-4 border-white/40 shadow-xl flex items-center justify-center overflow-hidden',
 
   links_button: 'backdrop-blur-md bg-white/20 border border-white/30 rounded-full px-4 py-2 cursor-pointer transition-all duration-300 hover:bg-white/30 hover:scale-[1.02] shadow-lg group w-[70%] mx-auto',
 
@@ -60,7 +60,7 @@ export const themes = {
 elegante: {
   background: 'bg-[url("/backgrounds/elegante.png")] bg-cover bg-center text-white min-h-screen',
 
-  avatar: 'w-32 h-32 mx-auto rounded-full border-4 border-white/40 shadow-xl flex items-center justify-center overflow-hidden',
+  avatar: 'w-38 h-38 mx-auto rounded-full border-4 border-white/40 shadow-xl flex items-center justify-center overflow-hidden',
 
   links_button: 'bg-gradient-to-r from-amber-50 via-rose-50 to-pink-200 rounded-full px-4 py-2 cursor-pointer transition-all duration-300 hover:scale-[1.02] shadow-[0_8px_18px_rgba(0,0,0,0.18)] group w-[70%] mx-auto',
 
@@ -70,7 +70,7 @@ elegante: {
 corporativo: {
   background: 'bg-[url("/backgrounds/corporativo.png")] bg-cover bg-center text-white min-h-screen',
 
-  avatar: 'w-32 h-32 mx-auto rounded-full border-4 border-white/40 shadow-xl flex items-center justify-center overflow-hidden',
+  avatar: 'w-38 h-38 mx-auto rounded-full border-4 border-white/40 shadow-xl flex items-center justify-center overflow-hidden',
 
   links_button: 'bg-gradient-to-r from-sky-200 via-slate-100 to-pink-200 rounded-full px-4 py-2 cursor-pointer transition-all duration-300 hover:scale-[1.02] shadow-[0_8px_18px_rgba(0,0,0,0.18)] group w-[70%] mx-auto',
 
@@ -80,7 +80,7 @@ corporativo: {
 creativo: {
   background: 'bg-[url("/backgrounds/creativo.png")] bg-cover bg-center text-white min-h-screen',
 
-  avatar: 'w-32 h-32 mx-auto rounded-full border-4 border-white/40 shadow-xl flex items-center justify-center overflow-hidden',
+  avatar: 'w-38 h-38 mx-auto rounded-full border-4 border-white/40 shadow-xl flex items-center justify-center overflow-hidden',
 
   links_button: 'bg-gradient-to-r from-cyan-400 via-lime-300 to-yellow-400 rounded-full px-4 py-2 cursor-pointer transition-all duration-300 hover:scale-[1.03] shadow-[0_10px_20px_rgba(0,0,0,0.35)] group w-[70%] mx-auto',
 
@@ -90,7 +90,7 @@ creativo: {
 premium: {
   background: 'bg-[url("/backgrounds/premium.png")] bg-cover bg-center text-white min-h-screen',
 
-  avatar: 'w-32 h-32 mx-auto rounded-full border-4 border-white/40 shadow-xl flex items-center justify-center overflow-hidden',
+  avatar: 'w-38 h-38 mx-auto rounded-full border-4 border-white/40 shadow-xl flex items-center justify-center overflow-hidden',
 
   links_button: 'bg-white/5 backdrop-blur-sm border-2 border-white/70 rounded-full px-4 py-2 cursor-pointer transition-all duration-300 hover:bg-white/10 hover:scale-[1.02] shadow-[0_8px_25px_rgba(255,255,255,0.08)] group w-[70%] mx-auto',
 
