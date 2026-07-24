@@ -1,0 +1,41 @@
+{
+  "title": "Biometrico3",
+  "description": "En caso de emrgencia llamar al numero 5528663253. Tipo de Sangre 0+. Sin alergias. Datos generales completos",
+  "url_base": "",
+  "theme": "creativo",
+
+  "profile": {
+    "name": "Biometrico3",
+    "avatar": "https://storage.tally.so/private/glifo2.jpg?id=k1xOKr&accessToken=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6ImsxeE9LciIsImZvcm1JZCI6IkVrNnk0TCIsImlhdCI6MTc4NDkzMzQ0N30.t8pmroHlhuBoOjFbre44WolVlmVcZFnorMOFYoTKpm0&signature=c9ef393b8b44f33e79bc9bad83b82ce0b40c71aedc4d9af4977cf8eed08f3263",
+    "description": "En caso de emrgencia llamar al numero 5528663253. Tipo de Sangre 0+. Sin alergias. Datos generales completos",
+    "adult": false
+  },
+
+  "links": [
+    {
+      "name": "WhatsApp",
+      "url": "https://wa.me/5567888893",
+      "icon": "/icons/whatsapp.svg"
+    },
+    {
+      "name": "Facebook",
+      "url": "",
+      "icon": "/icons/facebook.svg"
+    },
+    {
+      "name": "TikTok",
+      "url": "",
+      "icon": "/icons/tiktok.svg"
+    },
+    {
+      "name": "Sitio Web",
+      "url": "",
+      "icon": "/icons/Web.svg"
+    },
+    {
+      "name": "Youtube",
+      "url": "",
+      "icon": "/icons/youtube.svg"
+    }
+  ]
+}
