@@ -1,0 +1,41 @@
+{
+  "title": "agosto7",
+  "description": "Tarjeta de presentacion elegante",
+  "url_base": "",
+  "theme": "elegante",
+
+  "profile": {
+    "name": "agosto7",
+    "avatar": "https://storage.tally.so/private/Artboard-1-copy-11.png?id=4DkjX5&accessToken=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjREa2pYNSIsImZvcm1JZCI6IkVrNnk0TCIsImlhdCI6MTc4NjExNjM2MX0.TzzRu3eLPqCakaDojz3aWHQuNDW9m3Q7D_6jyIxZFIs&signature=bbe1691e76d1e7dee39bca178511e521379cd6c30e3243b57be3c18b1f15a79c",
+    "description": "Tarjeta de presentacion elegante",
+    "adult": false
+  },
+
+  "links": [
+    {
+      "name": "WhatsApp",
+      "url": "https://wa.me/5567888893",
+      "icon": "/icons/whatsapp.svg"
+    },
+    {
+      "name": "Facebook",
+      "url": "https://www.facebook.com/PulsoBreak",
+      "icon": "/icons/facebook.svg"
+    },
+    {
+      "name": "TikTok",
+      "url": "https://www.tiktok.com/@prodiscmx",
+      "icon": "/icons/tiktok.svg"
+    },
+    {
+      "name": "Sitio Web",
+      "url": "",
+      "icon": "/icons/Web.svg"
+    },
+    {
+      "name": "Youtube",
+      "url": "www.ygusyduas.com",
+      "icon": "/icons/youtube.svg"
+    }
+  ]
+}
