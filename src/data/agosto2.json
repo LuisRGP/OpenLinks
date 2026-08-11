@@ -1,0 +1,41 @@
+{
+  "title": "agosto2",
+  "description": "Presentacion de tarketa de agosto para tienda de ropa",
+  "url_base": "",
+  "theme": "creativo",
+
+  "profile": {
+    "name": "agosto2",
+    "avatar": "https://storage.tally.so/private/ChatGPT-Image-3-ago-2026-09_23_52-a.m..png?id=zR22DM&accessToken=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6InpSMjJETSIsImZvcm1JZCI6IkVrNnk0TCIsImlhdCI6MTc4NjQ2MjE5MX0.iHFc3Fj2cWWfSnAKcoKBm2CcX1DOxQTp6BHv-2EWY58&signature=51075125a03952260f2e528abaea480b7167508d96a0ee4020f14c6d14f616c2",
+    "description": "Presentacion de tarketa de agosto para tienda de ropa",
+    "adult": false
+  },
+
+  "links": [
+    {
+      "name": "WhatsApp",
+      "url": "https://wa.me/5567888893",
+      "icon": "/icons/whatsapp.svg"
+    },
+    {
+      "name": "Facebook",
+      "url": "https://www.facebook.com/PulsoBreak",
+      "icon": "/icons/facebook.svg"
+    },
+    {
+      "name": "TikTok",
+      "url": "https://www.tiktok.com/@prodiscmx",
+      "icon": "/icons/tiktok.svg"
+    },
+    {
+      "name": "Sitio Web",
+      "url": "",
+      "icon": "/icons/Web.svg"
+    },
+    {
+      "name": "Youtube",
+      "url": "https://www.youtube.com/watch?v=hFk_8Vamc4c",
+      "icon": "/icons/youtube.svg"
+    }
+  ]
+}
