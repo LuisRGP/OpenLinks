@@ -1,0 +1,41 @@
+{
+  "title": "luis r gp",
+  "description": "estilo mecanico y llamativo de presentacion web",
+  "url_base": "https://listado.mercadolibre.com.mx/pagina/luisrgpgarcia/#component=menu_corridors&tracking_id=ff7c2b769e07cba2899b0eed3bb41adc&label=Todos+los+productos&global_position=1",
+  "theme": "premium",
+
+  "profile": {
+    "name": "luis r gp",
+    "avatar": "https://storage.tally.so/private/boton.JPG?id=D9elBE&accessToken=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IkQ5ZWxCRSIsImZvcm1JZCI6IkVrNnk0TCIsImlhdCI6MTc4Nzk3MjE2NX0.lOYwZok8zLP96ctB6PKNY_Le-IM54hUPFagJD_jW-CU&signature=062ce29621361551cd8d03ce44963ef45e89d5652e2f46747d19059b2090e8fc",
+    "description": "estilo mecanico y llamativo de presentacion web",
+    "adult": false
+  },
+
+  "links": [
+    {
+      "name": "WhatsApp",
+      "url": "https://wa.me/5567888893",
+      "icon": "/icons/whatsapp.svg"
+    },
+    {
+      "name": "Facebook",
+      "url": "https://www.facebook.com/PulsoBreak",
+      "icon": "/icons/facebook.svg"
+    },
+    {
+      "name": "TikTok",
+      "url": "https://www.tiktok.com/@prodiscmx",
+      "icon": "/icons/tiktok.svg"
+    },
+    {
+      "name": "Sitio Web",
+      "url": "https://listado.mercadolibre.com.mx/pagina/luisrgpgarcia/#component=menu_corridors&tracking_id=ff7c2b769e07cba2899b0eed3bb41adc&label=Todos+los+productos&global_position=1",
+      "icon": "/icons/Web.svg"
+    },
+    {
+      "name": "Youtube",
+      "url": "www.ygusyduas.com",
+      "icon": "/icons/youtube.svg"
+    }
+  ]
+}
