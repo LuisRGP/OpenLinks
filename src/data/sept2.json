@@ -1,0 +1,41 @@
+{
+  "title": "sept2",
+  "description": "Estilo Elegante de tarjeta nfc 2026",
+  "url_base": "",
+  "theme": "elegante",
+
+  "profile": {
+    "name": "sept2",
+    "avatar": "https://storage.tally.so/private/tornasol.JPG?id=40a4dB&accessToken=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjQwYTRkQiIsImZvcm1JZCI6IkVrNnk0TCIsImlhdCI6MTc5MDYwOTI4NX0.YkughO7OEv0NH_E2vJeia5o9EiiDHBNGO0qUEMFZJ0o&signature=d746bbf89e0fb2ec180eb70a49d54fe556b1c92437615a76bd8067e7742f9a28",
+    "description": "Estilo Elegante de tarjeta nfc 2026",
+    "adult": false
+  },
+
+  "links": [
+    {
+      "name": "WhatsApp",
+      "url": "https://wa.me/5567888893",
+      "icon": "/icons/whatsapp.svg"
+    },
+    {
+      "name": "Facebook",
+      "url": "https://www.facebook.com/PulsoBreak",
+      "icon": "/icons/facebook.svg"
+    },
+    {
+      "name": "TikTok",
+      "url": "https://www.tiktok.com/@prodiscmx",
+      "icon": "/icons/tiktok.svg"
+    },
+    {
+      "name": "Sitio Web",
+      "url": "",
+      "icon": "/icons/Web.svg"
+    },
+    {
+      "name": "Youtube",
+      "url": "www.ygusyduas.com",
+      "icon": "/icons/youtube.svg"
+    }
+  ]
+}
