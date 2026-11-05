@@ -1,0 +1,41 @@
+{
+  "title": "ProDisc2FX",
+  "description": "ProDisc 2FX nueva linea de colores CAMALEON para motos con rin 17 pulgadas",
+  "url_base": "https://listado.mercadolibre.com.mx/pagina/prodiscmx/#component=menu_corridors&tracking_id=e73d167c8aac34e2c9106594a253eb6f&label=Todos+los+productos&global_position=1",
+  "theme": "elegante",
+
+  "profile": {
+    "name": "ProDisc2FX",
+    "avatar": "https://storage.tally.so/private/P2.jpg?id=VOlvvN&accessToken=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IlZPbHZ2TiIsImZvcm1JZCI6IkVrNnk0TCIsImlhdCI6MTc5Mzg5NzcxOH0.NimfAzcp8DQQFBb9u3J2K82C5ggUIKJX3Gwij8YMtmw&signature=af1fabf3b0d6669b294fafd5c1ea2a33c6d0df89fe8601cc627f783b064df8f4",
+    "description": "ProDisc 2FX nueva linea de colores CAMALEON para motos con rin 17 pulgadas",
+    "adult": false
+  },
+
+  "links": [
+    {
+      "name": "WhatsApp",
+      "url": "https://wa.me/https://wa.link/istenp",
+      "icon": "/icons/whatsapp.svg"
+    },
+    {
+      "name": "Facebook",
+      "url": "",
+      "icon": "/icons/facebook.svg"
+    },
+    {
+      "name": "TikTok",
+      "url": "https://www.tiktok.com/@prodiscmx",
+      "icon": "/icons/tiktok.svg"
+    },
+    {
+      "name": "Sitio Web",
+      "url": "https://listado.mercadolibre.com.mx/pagina/prodiscmx/#component=menu_corridors&tracking_id=e73d167c8aac34e2c9106594a253eb6f&label=Todos+los+productos&global_position=1",
+      "icon": "/icons/Web.svg"
+    },
+    {
+      "name": "Youtube",
+      "url": "https://www.youtube.com/watch?v=KGoKfvvK9VI",
+      "icon": "/icons/youtube.svg"
+    }
+  ]
+}
